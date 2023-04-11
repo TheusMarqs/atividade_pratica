@@ -1,7 +1,8 @@
 .container {
-    background-image: linear-gradient(to bottom, #17759e, #3069b8);
+    background-image: linear-gradient(to bottom, #259fd5, #3069b8);
     border-radius: 0.5em;
-    height: 400px;
+    height: 600px;
+    box-shadow: 1px 2px 2px 0 black;
 }
 
 h1 {
@@ -21,6 +22,12 @@ h1 {
 }
 
 #calcular {
-    box-shadow: 2px 1px 4px 0 black;
+    box-shadow: 1px 1px 3px 0 black;
     width: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: whitesmoke;
 }

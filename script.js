@@ -20,7 +20,7 @@ function Calcular() {
     var valor = parseFloat(document.getElementById('valor').value);
     var resultado = document.getElementById('resultado');
     var cambio = parseFloat(document.getElementById('cambio').value);
-    var valorFinal = valor * cambio;
+    var valorFinal = valor / cambio;
 
     resultado.value = valorFinal.toFixed(2);
 
