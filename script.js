@@ -26,6 +26,6 @@ function Calcular() {
     var valorDolar = valor / cambioDolar;
     var valorEuro = valor / cambioEuro;
 
-    resultado.value = 'Libra: ' + valorLibra.toFixed(2) + ' / Dólar: ' + valorDolar.toFixed(2) + ' / Euro: ' + valorEuro.toFixed(2);
+    resultado.value = 'Libra: ' + valorLibra.toFixed(2) + '\nDólar: ' + valorDolar.toFixed(2) + '\nEuro: ' + valorEuro.toFixed(2);
 
 }
